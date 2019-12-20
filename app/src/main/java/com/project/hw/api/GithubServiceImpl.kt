@@ -2,8 +2,7 @@ package com.project.hw.api
 
 import retrofit2.Retrofit
 import retrofit2.converter.gson.GsonConverterFactory
-
-
+//
 object GithubServiceImpl {
     private const val BASE_URL = "https://api.github.com"
 
