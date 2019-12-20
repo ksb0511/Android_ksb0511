@@ -30,6 +30,34 @@ class DummyRepoRepository {
                 text2 = "B",
                 text3 = "C",
                 text4="*"
+            ),
+            MainItem(
+                image = "1",
+                text1 = "A",
+                text2 = "B",
+                text3 = "C",
+                text4="*"
+            ),
+            MainItem(
+                image = "1",
+                text1 = "A",
+                text2 = "B",
+                text3 = "C",
+                text4="*"
+            ),
+            MainItem(
+                image = "1",
+                text1 = "A",
+                text2 = "B",
+                text3 = "C",
+                text4="*"
+            ),
+            MainItem(
+                image = "1",
+                text1 = "A",
+                text2 = "B",
+                text3 = "C",
+                text4="*"
             )
         )
     }

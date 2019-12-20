@@ -3,13 +3,16 @@ package com.project.hw.second_list
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import androidx.recyclerview.widget.GridLayoutManager
+import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
 import com.project.hw.R
+import kotlinx.android.synthetic.main.activity_main_list.*
 
 class SecondListActivity : AppCompatActivity() {
-    private lateinit var adapter : SecondAdapter
-    private lateinit var mainGitRepo : RecyclerView
+    private lateinit var adapter: SecondAdapter
+    private lateinit var mainGitRepo: RecyclerView
     private val repository = SecondRepoRepository()
+
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -18,20 +21,21 @@ class SecondListActivity : AppCompatActivity() {
         initGitRepoList()
     }
 
-    private fun initGitRepoList(){
-        mainGitRepo=findViewById(R.id.rvMainGitRepo2)
+    private fun initGitRepoList() {
+        mainGitRepo = findViewById(R.id.rvMainGitRepo2)
 
-        adapter= SecondAdapter(this)
+        adapter = SecondAdapter(this)
 
-        mainGitRepo.adapter=adapter
+        mainGitRepo.adapter = adapter
 
-        val grid=GridLayoutManager(this, 3)
+        val grid = GridLayoutManager(this, 3)
 
         mainGitRepo.setLayoutManager(grid)
         mainGitRepo.setAdapter(adapter)
 
-        adapter.data=repository.getRepoList()
+        adapter.data = repository.getRepoList()
 
         adapter.notifyDataSetChanged()
     }
+
 }
