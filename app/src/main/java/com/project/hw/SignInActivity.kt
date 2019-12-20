@@ -10,9 +10,6 @@ import kotlinx.android.synthetic.main.activity_sign_in.*
 
 class SignInActivity : AppCompatActivity() {
 
-    //git 연습중
-    private lateinit var id:String
-    private lateinit var pw:String
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -50,7 +47,7 @@ class SignInActivity : AppCompatActivity() {
             if(response){
                 val intent = Intent(this, MainListActivity::class.java)
 
-                intent.putExtra("lgoin", id)
+                intent.putExtra("login", id)
 
                 startActivity(intent)
             }
