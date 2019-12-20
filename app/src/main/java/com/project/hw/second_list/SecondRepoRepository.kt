@@ -9,47 +9,47 @@ class SecondRepoRepository {
             ),
             SecondItem(
                 text1 = "강수빈",
-                text2 = "안드 과제..아앙아아아아ㅏ아악"
+                text2 = "서버서버서버서버"
             ),
             SecondItem(
                 text1 = "강수빈",
-                text2 = "ㅜ아ㅏ루아ㅜ아아"
+                text2 = "가가가가"
             ),
             SecondItem(
                 text1 = "강수빈",
-                text2 = "파파파ㅏ파파파파파ㅏ"
+                text2 = "나ㅏ나나나"
             ),
             SecondItem(
                 text1 = "강수빈",
-                text2 = "안드 과제중..."
+                text2 = "다다다다"
             ),
             SecondItem(
                 text1 = "강수빈",
-                text2 = "안드 과제..아앙아아아아ㅏ아악"
+                text2 = "라라라랄"
             ),
             SecondItem(
                 text1 = "강수빈",
-                text2 = "ㅜ아ㅏ루아ㅜ아아"
+                text2 = "마마마마"
             ),
             SecondItem(
                 text1 = "강수빈",
-                text2 = "파파파ㅏ파파파파파ㅏ"
+                text2 = "바바바바"
             ),
             SecondItem(
                 text1 = "강수빈",
-                text2 = "안드 과제중..."
+                text2 = "사사사사"
             ),
             SecondItem(
                 text1 = "강수빈",
-                text2 = "안드 과제..아앙아아아아ㅏ아악"
+                text2 = "아아아아"
             ),
             SecondItem(
                 text1 = "강수빈",
-                text2 = "ㅜ아ㅏ루아ㅜ아아"
+                text2 = "자자자자"
             ),
             SecondItem(
                 text1 = "강수빈",
-                text2 = "파파파ㅏ파파파파파ㅏ"
+                text2 = "차차차ㅏㅊ"
             )
         )
     }
