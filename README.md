@@ -14,7 +14,7 @@
 [기본과제2] 자기소개하는 프로젝트 만들기
 
 ### 2차 세미나
-[기본과제1] Github Follower 화면 만들기
+[기본과제1] Github Follower 화면 만들기</br>
 [기본 과제2] 웹툰 목록 보기 화면 만들기 -> GridLayoutManager
 
 ### 3차 세미나
