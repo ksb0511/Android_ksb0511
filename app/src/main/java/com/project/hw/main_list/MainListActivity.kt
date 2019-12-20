@@ -21,8 +21,8 @@ class MainListActivity : AppCompatActivity() {
 
     //로그인 프로필에 관한 것
 
-    //private val userRepository : UserRepository=ServerUserRepository()
-    //private val gitRepoRepository : GitRepoRepository= ServerGitRepoRepository()
+    /*private val userRepository : UserRepository=ServerUserRepository()
+    private val gitRepoRepository : GitRepoRepository= ServerGitRepoRepository()*/
     private var login:String=""
 
     override fun onCreate(savedInstanceState: Bundle?) {
