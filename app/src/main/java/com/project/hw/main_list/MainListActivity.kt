@@ -20,9 +20,9 @@ class MainListActivity : AppCompatActivity() {
     private val repository = DummyRepoRepository()
 
     //로그인 프로필에 관한 것
-    /*
-    private val userRepository : UserRepository=ServerUserRepository()
-    private val gitRepoRepository : GitRepoRepository= ServerGitRepoRepository()*/
+
+    //private val userRepository : UserRepository=ServerUserRepository()
+    //private val gitRepoRepository : GitRepoRepository= ServerGitRepoRepository()
     private var login:String=""
 
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -33,7 +33,8 @@ class MainListActivity : AppCompatActivity() {
         initGitRepoList()
     }
 
-    /*private fun makeProfile() {
+    /*
+    private fun makeProfile() {
 
         // 현재 사용자 정보를 비동기적으로 받아온다.
         // Callback 내부의 코드는 나중에 데이터를 받아오고 실행된다.
